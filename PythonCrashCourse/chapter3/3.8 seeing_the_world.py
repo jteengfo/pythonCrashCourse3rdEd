@@ -18,4 +18,31 @@ Use sort() to change your list so it’s stored in reverse alphabetical order. P
 '''
 
 places_to_visit = ['maldives', 'carribean', 'boracay', 'switzerland', 'japan']
-print(places_to_visit)
+print(f"This is the original list: {places_to_visit}\n")
+
+# temporarily sorts list in alphabetical order
+sorted_list = sorted(places_to_visit)
+print(f"This is a sorted list alphabetically, but only temporarily: {sorted_list}\n")
+
+# checking that above is sorted by comparing to the original list
+print(f"This is the original list. See that this is different from the one above. {places_to_visit}\n")
+
+# using sorted function, and adding another argument to reverse the order
+sorted_list = sorted(places_to_visit, reverse=True)
+print(f"This is a sorted list alphabetically, temporarily, but in reverse order. {sorted_list}\n")
+
+# reversing the original list permanently
+places_to_visit.reverse()
+print(f"This is the original list sorted in reverse order, permanently. {places_to_visit}\n")
+
+# back to original
+places_to_visit.reverse()
+print(f"The list reverse permanently back to its original order. {places_to_visit}\n")
+
+# sorting the original list permanently
+places_to_visit.sort()
+print(f"This is the original list sorted permanently. {places_to_visit}\n")
+
+# sorting the original list permanently in reverse order
+places_to_visit.sort(reverse=True)
+print(f"This is the original list sorted permanently, in reverse order. {places_to_visit}\n")
