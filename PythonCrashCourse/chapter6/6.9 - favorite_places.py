@@ -10,8 +10,8 @@ favorite_places = {
     'james': {'home', 'apri', 'indigo',},
     'myke' : {'home', "parent's house in the states", 'with my friends',},
     'daniel' : {'home', 'japan', 'france',},
-    'cath': {},
-    'crystal': {},
+    'cath': {'Niagra Falls', 'Amusement park with a Ferris Wheel', 'Anywhere with water'},
+    'crystal': {'Hanjan', 'EKCA', 'Terwillegar foot bridge'},
     'julia': {'home', 'home', 'home',},
 }
 

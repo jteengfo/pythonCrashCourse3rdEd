@@ -25,6 +25,7 @@ def send_messages(messages):
 print(f"Short messages list: {short_messages}")
 print(f"Sent messages list: {sent_messages}\n")
 
+# passes a copy of the original list using the slice method [:]
 send_messages(short_messages[:])
 
 print(f"\nShort messages list: {short_messages}")
