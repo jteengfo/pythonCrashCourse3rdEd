@@ -1,0 +1,3 @@
+I learn that in python, you can make programs that will be useful for people.
+Python can also be written in english that can be easily understood. 
+Python also contains many modules/libraries that are useful for specific needs and goals.
