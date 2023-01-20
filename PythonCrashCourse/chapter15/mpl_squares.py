@@ -13,5 +13,5 @@ fig, ax = plt.subplots()
 # ax.scatter(input, squares, s=50)
 
 ax.plot(x_values, y_values, linewidth = 2)
-ax.scatter(x_values, y_values, s=50)
+ax.scatter(x_values, y_values, s=5)
 plt.show()
