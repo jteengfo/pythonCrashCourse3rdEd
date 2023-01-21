@@ -23,7 +23,7 @@ for side in die_sides:
 # visualize the results 
 title = "Results of Rolling two D8s"
 labels = {
-    'x' : 'Die Sides',
+    'x' : 'Results',
     'y' : 'Frequencies',
 }
 
