@@ -19,7 +19,7 @@ I will be doing this on a daily basis, with a goal to finish as soon as possible
 
 ## Part 2 Projects:
 ### Data Visualization
-- [ ] Chapter 15 <- Generating Data   
+- [x] Chapter 15 <- Generating Data   
 - [ ] Chapter 16 <- Downloading Data  
 - [ ] Chapter 17 <- Working with APIs  
 
